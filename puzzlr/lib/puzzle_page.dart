@@ -11,16 +11,7 @@ class PuzzlePage extends StatelessWidget {
         title: const Text('Puzzle Page'),
       ),
       body: Center(
-        child: ElevatedButton(
-          child: const Text('Start Puzzle'),
-          onPressed: () {
-            //TODO: load in a picture when this button is pressed
-            Navigator.push;{
-              context;
-              MaterialPageRoute(builder: (context) => const PuzzlePage());
-            }
-          },
-        ),
+        child: new Image.asset('assets/test_picture.jpeg', height: 400, width: 400)
       ),
     );
   }
